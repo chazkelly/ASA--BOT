@@ -18,6 +18,8 @@ pip install pillow
 pip install win32api
 pip install win32con
 pip install discord
+pip install pywin32
+python Scripts/pywin32_postinstall.py -install
 
 
 echo Installation complete.
