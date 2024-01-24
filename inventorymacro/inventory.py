@@ -62,7 +62,7 @@ class MagicF:
         self.inventory_handler.perform_action(256, 198, "berry", (385, 198))
 
     def paste(self):
-        self.inventory_handler.perform_action(1278, 198, "paste", (1458, 198))
+        self.inventory_handler.perform_action(1278, 198, "paste", (1410, 198))
 
     def takeall(self):
         self.inventory_handler.perform_action(1412, 198, "takeall")
@@ -101,7 +101,7 @@ class MagicF:
         self.dinoleveller.start_click_loop(1278, 198, 1)
         self.sendkeys.send_word("paste")
         time.sleep(0.1)
-        self.dinoleveller.start_click_loop(1458, 198, 1)
+        self.dinoleveller.start_click_loop(1410, 198, 1)
         time.sleep(0.01)
         self.sendkeys.send_key_press(self.sendkeys.VK_F)
 
