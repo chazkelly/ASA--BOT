@@ -59,7 +59,7 @@ class DinoInventory:
         self.sendkeys.send_word("raw")
         time.sleep(0.1)
         self.dinoleveller.start_click_loop(1410, 198, 1)
-        time.sleep(0.1)
+        time.sleep(0.3)
         self.dinoleveller.start_click_loop(1278, 198, 1)
         self.sendkeys.send_word("hide")
         time.sleep(0.1)
